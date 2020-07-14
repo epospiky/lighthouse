@@ -1,0 +1,75 @@
+.header{
+    height: 100vh;
+}
+.logo-png{
+    max-width: 90px;
+    max-height: 60px;
+}
+.logo-text{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 900;
+    padding-left: 20px;
+}
+.search-form{
+    display: none!important;
+}
+.search-btn, .search-btn:hover{
+    outline: none;
+    border: none;
+    background: none;
+}
+.nav-middle{
+    margin:0 auto;
+}
+.item-pad{
+    padding-right: 30px;
+}
+.item-pad:nth-child(4){
+    padding-right: unset;
+}
+.item-pad:nth-child(2), .item-pad:nth-child(3){
+    padding-left: 30px;
+}
+.active{
+    font-weight: 900;
+}
+.nav-link-black{
+    color: #000000;
+    text-decoration: none;
+}
+.nav-link-black:hover{
+    text-decoration: none;
+}
+.header-cont{
+    background-color: #FEE8D3;
+}
+.header-cont .row{
+    padding: 60px 30px;
+
+}
+.lh{
+    color:#2F24AC
+}
+.watch-btn{
+    padding: 10px 10px;
+    background-color: #2F24AC;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.watch-btn, .watch-btn:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bully-icons{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+.bully-icons .item{
+    display: inline-block;
+    padding-right: 20px;
+}
+.bully-icons .item:nth-last-child(){
+    padding-right: unset;
+}
