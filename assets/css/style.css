@@ -1,5 +1,7 @@
 .header{
     height: 100vh;
+    background-color: #FEE8D3;
+
 }
 .logo-png{
     max-width: 90px;
@@ -41,9 +43,7 @@
 .nav-link-black:hover{
     text-decoration: none;
 }
-.header-cont{
-    background-color: #FEE8D3;
-}
+
 .header-cont .row{
     padding: 60px 30px;
 
@@ -69,7 +69,88 @@
 .bully-icons .item{
     display: inline-block;
     padding-right: 20px;
+    padding-bottom: 20px;
 }
 .bully-icons .item:nth-last-child(){
     padding-right: unset;
+}
+
+
+
+
+
+.how-it-works{
+    background-color: #ffffff;
+}
+.how-it-works .row{
+    padding: 0;
+    margin: 0;
+}
+.how-it-works h4{
+    color: #2F24AC;
+}
+.how-it-works h2{
+    color: #000000;
+}
+.threshold, .alert, .track{
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+}
+.threshold-icon, .alert-icon, .track-icon{
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
+.threshold-icon{
+background-color: #FB8416;
+}
+.alert-icon{
+    background-color: #567CBA;
+}
+.track-icon{
+    background-color: #A24F95;
+}
+
+
+
+
+
+.coming-soon{
+    background-color: #FEE8D3;
+}
+.coming-soon h4{
+    color: #2F24AC;
+    text-align: center;
+}
+.coming-soon p{
+    text-align: center;
+}
+.notify-form{
+    padding-top: 50px;
+    width: 60%;
+}
+.notify-form input[type=text]{
+    border-radius: 5px 0 0 5px;
+    padding: 10px 15px 10px;
+}
+.notify-form input[type=submit]{
+    border-radius: 0 5px 5px 0;
+    background-color: #2F24AC;
+    color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+.footer-sec{
+    background-color: #1A2139;
+}
+.footer-sec .row{
+    margin: 0;
+    padding: 20px 30px;
 }

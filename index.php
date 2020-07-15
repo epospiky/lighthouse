@@ -63,5 +63,71 @@
             </div>
         </header>      
     </section>
+    <!----------------------------how it works section-------------------------------------------------------------->
+    <section class="how-it-works">
+        <h4>HOW IT WORKS</h4>
+        <h2>Keep your child safe</h2>
+        <div class="row">
+            <div class="col-md-4 threshold">
+                <div class="threshold-icon"><img src="" alt=""></div>
+                <h5>Set Threshold</h5>
+                <p>Set threshold limit for bullying incidences for each child.</p>
+            </div>
+            <div class="col-md-4 alert">
+                <div class="alert-icon"><img src="" alt=""></div>
+                <h5>Get Alerts</h5>
+                <p>Get detailed alerts immediately incidences occur such as intensity and duration of bullying incidence.</p>                
+            </div>
+            <div class="col-md-4 track">
+                <div class="track-icon"><img src="" alt=""></div>
+                <h5>Keep Track</h5>
+                <p>Keep track of each incidence as evidence to enable the appriopriate action to be taken.</p>
+            </div>
+        </div>
+    </section>
+    <!---------------------------coming soon section---------------------------------------------------------->
+    <section class="coming-soon">
+    <div class="soon-cont">
+        <h4>COMING SOON</h4>
+        <p>Our App is under construction follow us for updates now!</p>
+        <form action="" role="form" class="notify-form">
+            <div class="form-cont">
+            <input type="text" placeholder="Enter your email address" required>
+            <input type="button" value="Submit">
+            </div>
+        </form>
+    </div>
+    </section>
+    <!-------------------------------footer section----------------------------------->
+    <section class="footer-sec">
+        <footer>
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Links</h5>
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#">Download</a></p>
+                    <p><a href="#">About</a></p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Support</h5>
+                    <p><a href="#">FAQ</a></p>
+                    <p><a href="#">How it works</a></p>
+                    <p><a href="#">Features</a></p>                    
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <p><a href="#">+2348053692578</a></p>
+                    <p><a href="#">LightHouse@gmail.com</a></p>
+                    <p><a href="#">17 King Jakonde Street, Lagos</a></p> 
+                </div>
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <p><span><img src="assets/images/twitter.png" alt=""></span><a href="#"> @LightHouse</a></p>
+                    <p><span><img src="assets/images/instagram.png" alt=""></span><a href="#"> @LightHouse</a></p>
+                    <p><span><img src="assets/images/facebook.png" alt=""></span><a href="#"> @LightHouse</a></p> 
+                </div>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
