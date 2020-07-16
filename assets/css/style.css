@@ -21,6 +21,9 @@
     border: none;
     background: none;
 }
+.nav-bg{ 
+background-color:#FFFFFF;
+}
 .nav-middle{
     margin:0 auto;
 }
@@ -133,7 +136,9 @@ background-color: #FB8416;
 }
 .notify-form input[type=text]{
     border-radius: 5px 0 0 5px;
-    padding: 10px 15px 10px;
+    padding: 10px 15px 10px; 
+    outline:none;
+    border:1px solid rgba(0, 0, 0, 0.5);
 }
 .notify-form input[type=submit]{
     border-radius: 0 5px 5px 0;
@@ -154,3 +159,4 @@ background-color: #FB8416;
     margin: 0;
     padding: 20px 30px;
 }
+.footer-sec a{color:#FFFFFF;}
