@@ -85,6 +85,61 @@
             </div>
         </div>
     </section>
+
+    <section class="features">
+        <h3>FEATURES</h3>
+        <div class="container">
+            <div class="row track >
+                <div class="col-md-5">
+                    <h4>GPS tracking</h4>
+                    <p>LightHouse combines cellular and  GPS technology to give you the fastest and most accurate tracking nationwide.</p>
+                    <div class="row">
+                        <div class="col-md-6>
+                            <span><img src=""></span>
+                            <h6>Nationwide Coverage</h6>
+                            <p>Advanced GPS and cellular technology used to pinpoint your childs location.</p>
+                        </div>
+                        <div class="col-md-6>
+                            <span><img src=""></span>
+                            <h6>Location Alerts</h6>
+                            <p>Get email, app or text notifcations immediately an incident occurs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                       <div class="col-md-6">
+                           <img src="">
+                       </div>
+                       <div class="col-md-6 abs-rectangle-cont">
+                           <div class="abs-rectangle-right"></div>
+                       </div>
+                    </div>
+                </div>
+            </div
+            <div class="row>
+                <div class="col-md-7"></div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row>
+                <div class="col-md-5"></div>
+                <div class="col-md-7"></div>
+            </div>
+            <div class="row>
+                <div class="col-md-7"></div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row>
+                <div class="col-md-5"></div>
+                <div class="col-md-7"></div>
+            </div>
+            <div class="row>
+                <div class="col-md-7"></div>
+                <div class="col-md-5"></div>
+            </div>
+        </div>
+    </section>
+
     <!---------------------------coming soon section---------------------------------------------------------->
     <section class="coming-soon">
     <div class="soon-cont">
