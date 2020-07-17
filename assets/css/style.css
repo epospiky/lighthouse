@@ -21,8 +21,8 @@
     border: none;
     background: none;
 }
-.nav-bg{ 
-background-color:#FFFFFF;
+.header .nav-bg{ 
+background-color:#FFFFFF!important;
 }
 .nav-middle{
     margin:0 auto;
@@ -84,6 +84,7 @@ background-color:#FFFFFF;
 
 .how-it-works{
     background-color: #ffffff;
+    padding-top: 30px;
 }
 .how-it-works .row{
     padding: 0;
@@ -91,20 +92,51 @@ background-color:#FFFFFF;
 }
 .how-it-works h4{
     color: #2F24AC;
+    font-weight: 900;
 }
 .how-it-works h2{
     color: #000000;
+    font-weight: 900;
+}
+.how-it-works h5{
+    padding-top: 20px;
 }
 .threshold, .alert, .track{
     text-align: center;
     color: #000000;
     background-color: #ffffff;
+    padding-top: 20px!important;
+}
+.alert{
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 20px  2px rgba(0, 0, 0, 0.1), 10px -10px 20px 2px rgba(0, 0, 0, 0.1); 
+}
+
+.threshold div, .alert div, .track div{
+    margin-top: 20px;
+}
+.alert a, .alert a:hover, .alert a:visited{
+    text-decoration: none;
+    text-align: left!important;
+    
+}
+.alert a::after{
+    content: '\27F6';
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: left!important;
+
 }
 .threshold-icon, .alert-icon, .track-icon{
     max-width: 50px;
     height: auto;
     border-radius: 50%;
+    
     padding: 20px;
+    text-align: center;
 }
 .threshold-icon{
 background-color: #FB8416;
@@ -119,9 +151,91 @@ background-color: #FB8416;
 
 
 
+.features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features-header{
+    display: inline-block;
+    text-align: left;
+    color:#2F24AC;
+    background-color: #FFAA00;
+    padding: 10px 50px;
+    border-radius: 0px 50px 50px 0px!important;
+
+}
+
+.track, .reporting, .set_threshold, .alert_dis, .live_tracking {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+ 
+.reporting .col-md-5 img, 
+.set_threshold .col-md-5 img, 
+.alert_dis .col-md-5 img, 
+.live_tracking .col-md-5 img{
+    max-width: 250px;
+    height: auto;
+}
+.track .col-md-5 a, 
+.reporting .col-md-5 a, 
+.set_threshold .col-md-5 a, 
+.alert_dis .col-md-5 a, 
+.live_tracking .col-md-5 a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #2F24AC;
+    border-radius: 10px;
+}
+
+.track-cont{
+    vertical-align: middle;
+}
+.bell div, .map div{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.bell div>span, .map div>span{ 
+    background-color: #A24F95;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.screenshot img{
+    max-height: 500px;
+    width: auto;
+}
+.abs-rectangle-cont{
+    padding: 10% 0;
+}
+.abs-rectangle-right{
+    background-color: #FEE8D3;
+    min-width: 100px;
+    max-width: 500px;
+    height: auto;
+    left: -20px!important;
+    right: 0px!important;
+    margin: 20% 0!important;
+    display: block;
+    padding: 0!important;
+}
+.abs-rectangle-left{
+    background-color: #FEE8D3;
+    min-width: 100px;
+    max-width: 500px;
+    height: auto;
+    left: 0px!important;
+    right: 0px!important;
+    margin: 20% 0!important;
+    display: block;
+    padding: 0!important;
+}
 
 .coming-soon{
     background-color: #FEE8D3;
+    padding-top: 30px;
 }
 .coming-soon h4{
     color: #2F24AC;
@@ -131,23 +245,32 @@ background-color: #FB8416;
     text-align: center;
 }
 .notify-form{
+    margin: 0 auto;
+    margin-left: auto;
+    text-align: center;
     padding-top: 50px;
-    width: 60%;
+    width: 70%;
+    padding-bottom: 100px;
+}
+.form-cont{
+    width: 100%;
 }
 .notify-form input[type=text]{
-    border-radius: 5px 0 0 5px;
+    border-radius: 15px 0 0 15px;
     padding: 10px 15px 10px; 
     outline:none;
     border:1px solid rgba(0, 0, 0, 0.5);
+    width: 40%;
 }
 .notify-form input[type=submit]{
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 15px 15px 0;
     background-color: #2F24AC;
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 20px;
     position: absolute;
-    top: 0;
-    right: 0;
+    outline: none;
+    border: 1px solid #2F24AC;
+    width: auto;
 }
 
 
